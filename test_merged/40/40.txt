@@ -1,0 +1,7 @@
+Hoca akşam olunca mola verip bir hana girer, bu sırada hana bir başka yolcu daha girer ve ikisi birden hancıdan yiyecek bir şeyler isterler.
+Fakat hancı yiyecek olarak sadece bir balık olduğunu söyler ve bunu paylaşmalarını önerir.
+Bunun üzerine hoca: "Ben balığın sadece başını yiyecem" der.
+Hancı bunun nedenini sorar, hocada: "Balık başı zekayı arttırır, balık başı yiyen insan akıllı olur" der.
+Bunun üzerine diğer yolcu hemen atılır ve hocaya: "Balık başını niye sen yiyeceksin, ben yemek istiyorum" der.
+Hoca da itiraz etmez ve balığın koca gövdesini hoca yer ve bir güzel karnını doyurur, diğer yolcu ise sadece balığın başını yer ve sonra hocaya seslenir: "Sen koca gövdeyi yedin karnını doyurdun ben sadece kafayı yedim aç kaldım" der.
+Hoca da bunun üzerine şöyle der: "Bak nasıl akıllandın".

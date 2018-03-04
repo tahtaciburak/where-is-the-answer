@@ -1,0 +1,47 @@
+yontem0:
+
+varsayalim ki metinde n tane cumle olsun. ve bu metne sorulmus m tane soru olsun
+bu m sorunun cevaplarini iceren yine m boyutunda bir dizi var
+biz bu dizinin her gozunu 1 ile n arasinda rastgele sayilarla dolduruyoruz.
+
+yontem1:
+
+tam kelime benzerligi.
+oncelikle soru cumlesinin kelimelerinden basla. soru cumlesinin ilk kelimesini
+metindeki cumlenin icerisinde gezdir eger bu kelime soru ve metin cumlesinde ortak olarak
+varsa sayaci bir artir. boylelikle metindeki her cumle icin bir benzerlik sabiti bulacaksin
+bu sayi soru cumlesiyle metin cumlesindeki ortak kelime sayisi aslinda. sonra bu benzerlik
+sabirlerini bir diziye at. bu da senin cevaplar dizin
+
+yontem2:
+
+6harf kelime benzerligi
+bir onceki yontemle tamamen ayni tek farki kelimeleri karsilastirirken sadece ilk 6 harfi karsilastiriliyor
+
+yontem3:
+
+kelime vektoru
+daha onceki yontemlerde de oldugu gibi soru cumlesinin kelimelerini sirayla metin cumlelerinin icinde gezdirip
+standar == ifadesiyle kontrol ediyorduk.esitse bir degilse sifir yaziyorduk ancak bu yontemde fasttextteki 
+modeli kullanrak kelimeler arasinda birebir vektor benzerligi yapiyoruz. bu benzerligi cosinus benzerligi cinsindwen
+hesapliyoruz.
+
+yontem4:
+
+jaccard benzerligi
+algoritma dersinde gordugumuz jaccardin aynisi. burada shingle olarak bir kelime kullandik. ve standart olarak intersect/union yaptik.
+
+yontem5:
+
+cumle vektoru cosinus
+cumledeki her kelimenin vektorunun aritmetik ortalamasini aldik ve bir cumle vektoru elde etmis olduk. Elimizde hazir olan 
+soru vektoruyle karsilastirdik. Buradaki karsilastirma islemini yine cosinus similarity kullanarak yaptik ve en basarili cozumlerden biri bu oldu. 
+
+yontem6:
+
+cumle vektoru euclidean
+5. yontemle algoritmik olarak ayni tek fark yukaridakinde cosinus similarity kullanirken bunda euclidian distance kullandik ve sonuclarin degisimini inceledik bize digerinden daha basarisiz bir sonuc verdi
+
+MRR:
+
+bu yontemi biz sistemin basarisini daha iyi olcmek icin kullandik. bu yontem kapsaminda her metot sonuc olarak en yakin 3 tane deger dondurur. eger gercek cevap bu uc dizinin ilk sirasindaysa 1, ikinci sirasindaysa 1/2, ucuncu sirasindaysa 1/3 puan alir. bu kapsamda sistemin basarisi daha objektif olculmus olur.
